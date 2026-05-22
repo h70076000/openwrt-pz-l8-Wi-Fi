@@ -83,7 +83,7 @@ jobs:
       - name: Checkout OpenWrt
         uses: actions/checkout@v4
         with:
-          repository: openwrt/openwrt
+          repository: h70076111/openwrt
           ref: main
           path: openwrt
           fetch-depth: 0
